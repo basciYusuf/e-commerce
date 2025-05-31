@@ -185,14 +185,3 @@ e-ticaret/
 3. **JWT Token Hatası**
    - `.env` dosyasında `JWT_SECRET` değerinin doğru ayarlandığından emin olun
    - Token süresinin dolmadığından emin olun (varsayılan: 24 saat)
-
-## Güvenlik Notları
-
-1. `.env` dosyasını asla Git'e commit etmeyin
-2. Üretim ortamında güçlü bir JWT secret kullanın
-3. Veritabanı şifrelerini güvenli bir şekilde saklayın
-4. `synchronize: false` ayarı ile veritabanı şemasının otomatik değişmesini engelleyin
-
-## Lisans
-
-MIT
